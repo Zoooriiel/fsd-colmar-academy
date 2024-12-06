@@ -127,7 +127,6 @@ header > div {
   flex-direction: column;
   justify-content: space-evenly;
   min-height: 18rem;
-  margin-right: 18%;
 }
 
 header div > h1 {
@@ -135,6 +134,7 @@ header div > h1 {
   font-weight: 900;
   color: #484848;
   margin-bottom: 1rem;
+  margin-right: 25%;
 }
 
 header div > h2 {
@@ -142,6 +142,7 @@ header div > h2 {
   font-weight: 700;
   color: #484848;
   margin-bottom: 2rem;
+  margin-right: 25%;
 }
 
 header div button {
@@ -150,6 +151,7 @@ header div button {
   color: white;
   border: none;
   font-size: 20px;
+  margin-right: 25%;
 }
 
 /* hover effect for call to action link */
@@ -508,9 +510,10 @@ footer p{
     grid-column: full-start / full-end;
   }
 
-  header div > button{
+ #button-start {
     width: 100%;
     background-color: #9B9B9B;
+    margin-right: 1rem;
   }
 
   header div > button a{
