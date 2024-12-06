@@ -12,7 +12,7 @@ html {
   font-size: 16px;
 }
 
-body{
+body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #fff;
   letter-spacing: 0.5px;
@@ -30,7 +30,6 @@ a {
   grid-template-columns: [full-start] 0.6fr [center-end center-start] 0.4fr [full-end];
   grid-template-rows: repeat(6, min-content);
 }
-
 
 /* TODO */
 
@@ -79,36 +78,35 @@ nav > a {
   margin-left: 1.5rem;
 }
 
-.logoname{
+.logoname {
   text-transform: uppercase;
   line-height: 2rem;
 }
 
-.logoname-bold{
+.logoname-bold {
   font-weight: bold;
   color: #484848;
 }
 
-.logoname-light{
+.logoname-light {
   font-weight: lighter;
   color: #aaa;
 }
 /* Set up navigation links' styles */
 nav ul li a:hover {
-  color: #000; 
+  color: #000;
   text-decoration: underline;
 }
 
-footer ul > li > a:hover{
-  color: #000; 
+footer ul > li > a:hover {
+  color: #000;
   text-decoration: underline;
 }
-
 
 /* Set up header area */
 header {
   display: flex;
-  background-color: #D8D8D8;
+  background-color: #d8d8d8;
   align-items: center;
   justify-content: center;
 }
@@ -145,7 +143,7 @@ header div > h2 {
   margin-right: 25%;
 }
 
-header div button {
+header div > button {
   background-color: #484848;
   padding: 1rem 0;
   color: white;
@@ -164,15 +162,14 @@ header div button:hover {
   cursor: pointer;
 }
 
-.events-text > a:hover{ 
+.events-text > a:hover {
   text-decoration: underline;
 }
 
-.events-text > a:visited{ 
+.events-text > a:visited {
   text-decoration: underline;
   color: #2c18e1;
 }
-
 
 /* Set up practice section */
 .practice {
@@ -180,7 +177,7 @@ header div button:hover {
   justify-content: flex-start;
   flex-direction: column;
   padding-bottom: 1.5rem;
-  color: #4A4A4A;
+  color: #4a4a4a;
 }
 
 .practice > .imgcontainer > img {
@@ -201,7 +198,6 @@ header div button:hover {
   font-size: small;
   font-weight: lighter;
 }
-
 
 .practice > .practice-text > p > span {
   display: block;
@@ -232,7 +228,7 @@ header div button:hover {
 }
 
 .events .events-block:last-of-type {
-  background-color: #D8D8D8;
+  background-color: #d8d8d8;
 }
 
 .events img {
@@ -255,30 +251,30 @@ header div button:hover {
 .events .events-text p {
   font-size: small;
   padding-bottom: 0.5rem;
-  color: #4A4A4A;
+  color: #4a4a4a;
 }
 
 .events .events-text a {
   font-size: small;
-  color: #4B90E2;
+  color: #4b90e2;
 }
 
 /* Set up Learning section */
-.learning{
+.learning {
   grid-column: full-start / full-end;
   display: flex;
   flex-direction: column;
-  background-color: #EAEBEC;
+  background-color: #eaebec;
   align-items: center;
   padding: 2rem 4.5rem;
 }
 
-.learning .learning-header{
+.learning .learning-header {
   padding-bottom: 2rem;
   font-size: x-large;
 }
 
-.learning-header h1{
+.learning-header h1 {
   color: #4a4a4a;
   font-weight: 800;
 }
@@ -297,7 +293,7 @@ header div button:hover {
   text-align: left;
 }
 
-.learning-block img{
+.learning-block img {
   display: block;
   margin-bottom: 10px;
   width: 100%;
@@ -305,15 +301,15 @@ header div button:hover {
   background-size: cover;
 }
 
-.learning-block:hover{
+.learning-block:hover {
   transition: 0.45s ease-out;
   transform: scale(1.05);
 }
 
-.learning-block a{
+.learning-block a {
   text-decoration: none;
-  color: #4A4A4A;
-  transform: scale(1.0);
+  color: #4a4a4a;
+  transform: scale(1);
 }
 
 .learning-text {
@@ -321,27 +317,27 @@ header div button:hover {
   padding: 0 10% 1.5rem 1rem;
 }
 
-.learning-text > h1{
+.learning-text > h1 {
   color: #4a4a4a;
   margin-bottom: 1rem;
 }
 
-.learning-text > h3, .learning-text > p{
+.learning-text > h3,
+.learning-text > p {
   color: #787878;
   font-weight: lighter;
   letter-spacing: 1px;
 }
 
-.learning-text > h3{
+.learning-text > h3 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
   text-transform: uppercase;
 }
 
-
 /* Set up thesis section */
 
-.thesis{
+.thesis {
   grid-column: full-start / full-end;
   background: #fff;
   display: flex;
@@ -349,95 +345,90 @@ header div button:hover {
   align-items: center;
 }
 
-.thesis-header{
+.thesis-header {
   padding: 2rem 0;
 }
 
-.thesis-header h1{
+.thesis-header h1 {
   color: #4a4a4a;
   font-weight: 800;
 }
 
 .thesis > .thesis-container {
-    display: grid;
-    grid-template-columns: 0.6fr 0.4fr;
-  }
-  
+  display: grid;
+  grid-template-columns: 0.6fr 0.4fr;
+}
+
 .thesis-left > .vidcontainer > video {
   width: 100%;
   height: auto;
 }
 
-
 .thesis-left .vidcontainer {
-      padding: 0 1.5rem 1.5rem 1.5rem;
+  padding: 0 1.5rem 1.5rem 1.5rem;
 }
 
-
-.thesis-left > .thesis-text{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0 25% 2rem 1.5rem;
-  }
-  
-  .thesis-left > .thesis-text > h1 {
-    font-size: xx-large;
-    margin-bottom: 1.5rem;
-    color: #4a4a4a;
-  }
-  
-  .thesis-left > .thesis-text > p {
-    font-size: small;
-    font-weight: lighter;
-    text-align: left;
-  }
-
-
-.thesis-right .thesis-block{
-      display: grid;
-      grid-template-columns: 0.35fr 0.65fr;
-      padding: 1rem 18% 1rem 1rem;
-      align-items: center;
+.thesis-left > .thesis-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 25% 2rem 1.5rem;
 }
 
+.thesis-left > .thesis-text > h1 {
+  font-size: xx-large;
+  margin-bottom: 1.5rem;
+  color: #4a4a4a;
+}
 
-.thesis-block > div > img{
+.thesis-left > .thesis-text > p {
+  font-size: small;
+  font-weight: lighter;
+  text-align: left;
+}
+
+.thesis-right .thesis-block {
+  display: grid;
+  grid-template-columns: 0.35fr 0.65fr;
+  padding: 1rem 18% 1rem 1rem;
+  align-items: center;
+}
+
+.thesis-block > div > img {
   width: 100%;
   height: auto;
   object-fit: contain;
 }
 
-.thesis-block > .thesis-blocktext{
+.thesis-block > .thesis-blocktext {
   padding-left: 1rem;
 }
 
-.thesis-blocktext > h3{
+.thesis-blocktext > h3 {
   padding-bottom: 1rem;
   color: #4a4a4a;
 }
 
-.thesis-blocktext > p{
+.thesis-blocktext > p {
   color: #787878;
 }
 .thesis-right .thesis-block:first-of-type {
-    background-color: #D8D8D8;
-  }
+  background-color: #d8d8d8;
+}
 
 .thesis-text {
   text-align: center;
   padding: 1rem;
 }
 
-.thesis-text > p{
+.thesis-text > p {
   color: #787878;
   line-height: 1.5;
 }
 
-
 /* Set up footer */
 
-footer{
+footer {
   font-size: 0.8rem;
   display: flex;
   grid-column: full-start / full-end;
@@ -446,30 +437,30 @@ footer{
   padding: 1rem 1.5rem 2rem;
 }
 
-footer > ul{
+footer > ul {
   list-style: none;
   display: flex;
 }
 
-footer > ul > li{
+footer > ul > li {
   margin-right: 0.5rem;
 }
 
-footer > ul > li > a{
+footer > ul > li > a {
   color: #787878;
 }
 
-footer p{
-  color: #787878
+footer p {
+  color: #787878;
 }
 
 /* Hide nav for mobile */
-#nav-mobile{
+#nav-mobile {
   display: none;
 }
 
 /* Hide events mobile img */
-.events > .events-block > .events-img-mobile{
+.events > .events-block > .events-img-mobile {
   display: none;
 }
 
@@ -485,18 +476,18 @@ footer p{
 
 /* if the width of screen is 640px and below (aka 40rem x 16px) */
 @media screen and (max-width: 40rem) {
-
-  .container{
-    width: 100vw;;
+  .container {
+    width: 100vw;
   }
-  
+
   /* Hide the desktop <nav> */
-  nav, .practice{
+  nav,
+  .practice {
     display: none;
   }
 
   /* Display mobile nav */
-  #nav-mobile{
+  #nav-mobile {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -505,170 +496,171 @@ footer p{
   }
 
   /* Set up mobile header */
-  header{
+  header {
     display: grid;
     grid-column: full-start / full-end;
   }
 
- #button-start {
+  header div > button {
     width: 100%;
-    background-color: #9B9B9B;
-    margin-right: 1rem;
+    background-color: #9b9b9b;
   }
 
-  header div > button a{
+  header div > button a {
     font-size: 22px;
     font-weight: 600;
   }
 
-  .imgcontainer{
+  .imgcontainer {
     padding: 0;
   }
 
-  header > div{
+  header > div {
     display: block;
     width: auto;
     height: auto;
     padding: 2rem 1rem;
-}
+  }
 
-header > div > h2{
+  header > div > h1 {
+    margin-right: 5%;
+  }
+
+  header > div > h2 {
     margin-top: 2rem;
     margin-bottom: 1.5rem;
-}
+    margin-right: 5%;
+  }
 
-/* Set up the events for mobile */
-.events{
+  /* Set up the events for mobile */
+  .events {
     display: grid;
     grid-column: full-start / full-end;
     border-left: none;
-}
+  }
 
-.events > .events-block{
+  .events > .events-block {
     display: flex;
     flex-direction: column;
     padding: 4rem 1rem 1rem;
     border-bottom: none;
-}
+  }
 
-.events > .events-block h3{
-  margin-top: 2rem;
-}
+  .events > .events-block h3 {
+    margin-top: 2rem;
+  }
 
-.events .events-block:last-of-type {
-  background-color: #fff;
-}
+  .events .events-block:last-of-type {
+    background-color: #fff;
+  }
 
-.events .events-block:first-child{
-  padding-top: 1rem;
-}
+  .events .events-block:first-child {
+    padding-top: 1rem;
+  }
 
-.events .events-block:last-child{
+  .events .events-block:last-child {
     padding-bottom: 2rem;
-}
+  }
 
-.events > .events-block > .events-img-desktop{
+  .events > .events-block > .events-img-desktop {
     display: none;
-}
+  }
 
-.events > .events-block > .events-img-mobile{
-  display: block;
-  width: 100%;
-  height: auto;
-}
+  .events > .events-block > .events-img-mobile {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
 
-.events > .events-block > .events-text{
+  .events > .events-block > .events-text {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     width: 100%;
     height: 5rem;
     margin-left: 1rem;
-}
+  }
 
-/* Set up learning for mobile */
-section.learning{
-  background-color: #fff;
-  padding: 0 1rem 2rem 1rem;
-  border-top: 1px solid #e7e7e7;
+  /* Set up learning for mobile */
+  section.learning {
+    background-color: #fff;
+    padding: 0 1rem 2rem 1rem;
+    border-top: 1px solid #e7e7e7;
+  }
 
-}
+  .learning > .learning-grid {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+    width: 100%;
+  }
 
-.learning > .learning-grid{
-  grid-template-columns: 1fr;
-  gap: 0.5rem;
-  width: 100%;
-}
+  .learning .learning-header {
+    padding: 2rem 0 1rem 0;
+  }
 
-.learning .learning-header{
-  padding: 2rem 0 1rem 0;
-}
+  .learning-block > .learning-text {
+    padding: 0;
+  }
 
-.learning-block > .learning-text{
-  padding: 0;
-}
+  .learning-text {
+    padding: 1rem;
+    font-size: 18px;
+  }
 
-.learning-text{
-padding: 1rem;
-font-size: 18px;
-}
-
-.learning-block img,
-.learning-block h3,
-.learning-block p{
-  display: none;
-}
-
-.thesis-left > .thesis-text,
-.thesis-text h1,
-.thesis-text p, 
-.thesis-right{
-  display: none;
-}
-
-.learning-block{
-  background-color: #D8D8D8;
-}
-
-/* Set up thesis for mobile */
-.thesis-header{
-  padding: 2rem 0 1rem 0;
-}
-
-.thesis-left .vidcontainer{
-grid-template-columns: 1fr;
-position: relative;
-width: 100vw;
-left: 50%;
-transform: translateX(-50%);
-margin-bottom: 1.5rem;
-padding: 0;
-}
-
-section.thesis-left{
-  padding-bottom: 1.5rem;
-}
-
-.thesis{
-  border-top: 1px solid #e7e7e7;
-}
-
-/* Set footer for mobile */
-footer > ul{
+  .learning-block img,
+  .learning-block h3,
+  .learning-block p {
     display: none;
-}
+  }
 
-footer p{
-  color: #484848;
-}
+  .thesis-left > .thesis-text,
+  .thesis-text h1,
+  .thesis-text p,
+  .thesis-right {
+    display: none;
+  }
 
-footer{
-  border: none;
-  padding: 1rem;
-}
+  .learning-block {
+    background-color: #d8d8d8;
+  }
 
-}
+  /* Set up thesis for mobile */
+  .thesis-header {
+    padding: 2rem 0 1rem 0;
+  }
 
+  .thesis-left .vidcontainer {
+    grid-template-columns: 1fr;
+    position: relative;
+    width: 100vw;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 1.5rem;
+    padding: 0;
+  }
+
+  section.thesis-left {
+    padding-bottom: 1.5rem;
+  }
+
+  .thesis {
+    border-top: 1px solid #e7e7e7;
+  }
+
+  /* Set footer for mobile */
+  footer > ul {
+    display: none;
+  }
+
+  footer p {
+    color: #484848;
+  }
+
+  footer {
+    border: none;
+    padding: 1rem;
+  }
+}
 
 /* *********************** */
 /** End of Mobile Section **/
